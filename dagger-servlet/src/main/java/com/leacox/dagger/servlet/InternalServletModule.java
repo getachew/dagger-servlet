@@ -45,7 +45,7 @@ import javax.inject.Singleton;
 )
 class InternalServletModule {
     @Provides
-    FilterPipeline providFilterPipeline(ManagedFilterPipeline filterPipeline) {
+    FilterPipeline provideFilterPipeline(ManagedFilterPipeline filterPipeline) {
         return filterPipeline;
     }
 
